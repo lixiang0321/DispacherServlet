@@ -2,6 +2,7 @@ package www.mldn.common.servlet;
 
 
 import java.io.IOException;
+import java.util.Scanner;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -23,9 +24,8 @@ public class DispacherServlet extends HttpServlet {
             //进行调用
             ScannerPackageUtil.scannerHandle(this.getClass(),scanPackages);
         }
-
-
     }
+
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

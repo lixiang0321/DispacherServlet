@@ -3,9 +3,6 @@ package www.mldn.common.servlet.bean;
 import java.io.File;
 
 public class ScannerPackageUtil {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
     public ScannerPackageUtil() {
     }
     public static void scannerHandle(Class<?> clazz,String packages){
